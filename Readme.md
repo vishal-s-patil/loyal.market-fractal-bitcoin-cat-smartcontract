@@ -129,8 +129,8 @@ The **Bitcoin On-Chain Loyalty Program** provides a decentralized, transparent, 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/bitcoin-loyalty-program.git
-   cd bitcoin-loyalty-program
+   git clone https://github.com/vishal-s-patil/loyal.market-fractal-bitcoin-cat-smartcontract
+   cd loyal.market-fractal-bitcoin-cat-smartcontract
    ```
 2. Install dependencies:
    ```
