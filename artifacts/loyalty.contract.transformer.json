@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "errors": [],
+  "scryptfile": "loyalty.contract.scrypt",
+  "sourceMapFile": "loyalty.contract.scrypt.map",
+  "ctxMethods": [
+    "increaseLoyalPoints",
+    "redeemPoints"
+  ]
+}
