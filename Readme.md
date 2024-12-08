@@ -2,7 +2,11 @@
 
 ## Goal Description
 
-The **Bitcoin On-Chain Loyalty Program** is a decentralized application (DApp) that rewards users for their engagement with various social media platforms (like Twitter, Discord, etc.) through blockchain transactions. By utilizing Bitcoin's OP_RETURN output, the program tracks users' actions on-chain, making their interactions immutable and verifiable. Users accumulate loyalty points for each interaction, which can later be redeemed for rewards such as airdrops or special incentives.
+Startups and early-stage founders often struggle to build a thriving ecosystem due to a lack of a unified platform that attracts and engages users effectively. Despite the crucial role of early adopters—such as the first 100, 1,000, 2,000, or 5,000 users—in fostering community growth, these loyal contributors often go under-recognized and under-incentivized.
+
+To address this gap, Loyal.market emerges as a platform where users can actively participate in the growth of startups and collections by engaging in activities outlined by the founders. In return, their loyalty and contributions are rewarded with significant incentives in the form of liquidity tokens. These tokens are purpose-bound, creating a meaningful and spendable value ecosystem that empowers both users and startups to grow together.
+
+The **Bitcoin On-Chain Loyalty Program, Loyal.Market** is a decentralized application (DApp) that rewards users for their engagement with various social media platforms (like Twitter, Discord, etc.) through blockchain transactions. By utilizing Bitcoin's OP_RETURN output, the program tracks users' actions on-chain, making their interactions immutable and verifiable. Users accumulate loyalty points for each interaction, which can later be redeemed for rewards such as airdrops or special incentives.
 
 ### Key Features:
 
@@ -17,6 +21,12 @@ The **Bitcoin On-Chain Loyalty Program** is a decentralized application (DApp) t
 ### 1. **Blockchain Integration**
 
 The program uses the **Bitcoin blockchain** to store user actions in **OP_RETURN** outputs. OP_RETURN allows us to store up to 80 bytes of data per transaction, making it ideal for embedding user action metadata.
+
+We leverage sCrypt, built on Fractal Bitcoin, to create smart contracts that dynamically interact with deployed collection/startup contracts. Using a commit-and-reveal mechanism, the system ensures secure and transparent updates.
+
+To enhance flexibility and security, the platform generates Partially Signed Bitcoin Transactions (PSBTs), allowing multiple parties to collaboratively sign and validate transactions before they are broadcasted to the network. Additionally, the implementation of OP_CAT enables the concatenation of multiple complex loyalty operations into a single streamlined process, ensuring efficiency in handling intricate transactions.
+
+This approach combines advanced contract functionality with robust security measures, fostering trust and scalability for both startups and their loyal user communities.
 
 #### How OP_RETURN Works:
 
